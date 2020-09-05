@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="setupAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="92.0" prefWidth="263.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SetupController">
+   <children>
+      <ProgressIndicator layoutX="106.0" layoutY="20.0" />
+      <Label layoutX="62.0" layoutY="70.0" text="Looking for local Devices..." />
+   </children>
+</AnchorPane>

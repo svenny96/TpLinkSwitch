@@ -1,0 +1,33 @@
+.table-view {
+    -fx-border-color: white;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header {
+     -fx-background-color: white;
+     -fx-border-color: white;
+     -fx-border-width:0.1;
+
+
+}
+
+.table-view .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.table-view .column-header-background .label {
+    -fx-text-fill: black;
+    -visibility: hidden;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+.menu-bar {
+    -fx-background-color: white;
+
+}

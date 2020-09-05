@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../Styles/table.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainScreenController">
+   <children>
+      <FlowPane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <TableView fx:id="mainScreenTable" prefHeight="397.0" prefWidth="600.0" stylesheets="@../Styles/table.css">
+              <columns>
+                <TableColumn fx:id="colHostName" maxWidth="176.0" minWidth="100.0" prefWidth="169.0" text="Host Name" />
+                <TableColumn fx:id="colAddress" maxWidth="305.0" minWidth="100.0" prefWidth="236.0" text="IP Address" />
+                  <TableColumn fx:id="colBtn" minWidth="100.0" prefWidth="194.0" text="Column X" />
+              </columns>
+            </TableView>
+            <Label fx:id="statusMsg" text="Label" />
+         </children>
+      </FlowPane>
+   </children>
+</AnchorPane>
